@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Azure lab</title>
+	</head>
+	<body>
+		<script src="jspm_packages/system.js"></script>
+		<script src="config.js"></script>
+		<script>
+			System.import('app/main').then(function(app){
+				app.render();
+			});
+			
+			System.import('app/singleton').then(function(app){
+				//console.log(app.default.log());
+			});
+		</script>
+	</body>
+</html> 

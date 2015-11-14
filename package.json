@@ -1,0 +1,26 @@
+{
+  "name": "azure-tolu-dev",
+  "version": "1.0.0",
+  "description": "a web lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolu/azure-tolu-dev.git"
+  },
+  "author": "tobias.lundin@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tolu/azure-tolu-dev/issues"
+  },
+  "homepage": "https://github.com/tolu/azure-tolu-dev#readme",
+  "jspm": {
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
